@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 const steps = [
-  { n: 1, title: "Create Wallet", text: "Download Phantom. Write down 12 words. Lose them. Try again.", emoji: "👛" },
-  { n: 2, title: "Bridge", text: "Move some SOL over. Cry at gas fees. Send it anyway.", emoji: "🌉" },
+  { n: 1, title: "Create Wallet", text: "Download Rabby Wallet. Write down 12 words. Lose them. Try again.", emoji: "👛" },
+  { n: 2, title: "Bridge", text: "Move some ETH over. Cry at gas fees. Send it anyway.", emoji: "🌉" },
   { n: 3, title: "Buy", text: "Paste contract (COMING SOON). Slam the buy button 47 times.", emoji: "💸" },
   { n: 4, title: "Become Regarded", text: "Check chart every 6 seconds. Post memes. Ascend.", emoji: "🧠" },
 ];
