@@ -39,7 +39,7 @@ export function Hero() {
             <motion.a
               whileHover={{ scale: 1.06, rotate: -1 }}
               whileTap={{ scale: 0.95 }}
-              href="https://ponsfamily.com"
+              href="https://www.ponsfamily.com/launchpad/0x27ad24272b73d4d7bd14b99672b245a010f2cc0e"
               target="_blank" rel="noreferrer"
               className={`${btnBase} bg-[color:var(--color-trump-red)] text-white px-8 py-4 text-2xl`}
             >
@@ -48,7 +48,7 @@ export function Hero() {
             <motion.a
               whileHover={{ scale: 1.06, rotate: 1 }}
               whileTap={{ scale: 0.95 }}
-              href="https://dexscreener.com"
+              href="https://dexscreener.com/robinhood/0x12BB5c491a286AEc5A3093D2d0D8b07520Fa9518"
               target="_blank" rel="noreferrer"
               className={`${btnBase} bg-[color:var(--color-gold)] text-[color:var(--color-ocean-deep)] px-6 py-4 text-xl`}
             >
@@ -57,7 +57,8 @@ export function Hero() {
             <motion.a
               whileHover={{ scale: 1.06, rotate: -1 }}
               whileTap={{ scale: 0.95 }}
-              href="#"
+              href="https://t.me/RetrumpRH"
+              target="_blank" rel="noreferrer"
               className={`${btnBase} bg-[color:var(--color-ocean)] text-white px-6 py-4 text-xl`}
             >
               ✈️ TELEGRAM
@@ -65,7 +66,8 @@ export function Hero() {
             <motion.a
               whileHover={{ scale: 1.06, rotate: 1 }}
               whileTap={{ scale: 0.95 }}
-              href="#"
+              href="https://x.com/RetrumpRH"
+              target="_blank" rel="noreferrer"
               className={`${btnBase} bg-[color:var(--color-ocean-deep)] text-white px-6 py-4 text-xl`}
             >
               𝕏
@@ -76,15 +78,18 @@ export function Hero() {
               Contract Address
             </div>
             <div className="mt-1 flex items-center gap-3">
-              <code className="font-display text-lg text-[color:var(--color-trump-red)] md:text-2xl">
-                COMING SOON
+              <code className="font-display text-lg text-[color:var(--color-trump-red)] md:text-2xl break-all">
+                0x27Ad24272b73D4D7bd14B99672b245A010F2cC0E
               </code>
               <button
-                disabled
-                onClick={() => setCopied(true)}
-                className="ml-auto rounded-full comic-border bg-[color:var(--color-gold)]/40 px-4 py-2 font-display text-sm text-[color:var(--color-ocean-deep)] opacity-60"
+                onClick={() => {
+                  navigator.clipboard.writeText("0x27Ad24272b73D4D7bd14B99672b245A010F2cC0E");
+                  setCopied(true);
+                  setTimeout(() => setCopied(false), 2000);
+                }}
+                className="ml-auto rounded-full comic-border bg-[color:var(--color-gold)] px-4 py-2 font-display text-sm text-[color:var(--color-ocean-deep)] hover:scale-105 transition-transform"
               >
-                {copied ? "COMING SOON" : "COMING SOON"}
+                {copied ? "COPIED" : "COPY"}
               </button>
             </div>
           </div>
@@ -146,7 +151,7 @@ function Nav() {
         ))}
       </nav>
       <a
-        href="https://ponsfamily.com"
+        href="https://www.ponsfamily.com/launchpad/0x27ad24272b73d4d7bd14b99672b245a010f2cc0e"
         target="_blank" rel="noreferrer"
         className={`${btnBase} bg-[color:var(--color-trump-red)] text-white px-5 py-2 text-lg`}
       >

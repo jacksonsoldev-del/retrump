@@ -36,15 +36,15 @@ export function Footer() {
             <span className="font-display text-4xl text-white text-stroke-thin">$RETRUMP</span>
           </div>
           <div className="flex flex-wrap gap-3">
-            <a href="https://ponsfamily.com" target="_blank" rel="noreferrer" className="rounded-full comic-border comic-shadow bg-[color:var(--color-trump-red)] px-6 py-3 font-display text-xl text-white">BUY NOW</a>
-            <a href="https://dexscreener.com" target="_blank" rel="noreferrer" className="rounded-full comic-border comic-shadow bg-[color:var(--color-gold)] px-6 py-3 font-display text-xl text-[color:var(--color-ocean-deep)]">CHART</a>
-            <a href="#" className="rounded-full comic-border comic-shadow bg-[color:var(--color-ocean)] px-6 py-3 font-display text-xl text-white">TELEGRAM</a>
-            <a href="#" className="rounded-full comic-border comic-shadow bg-white px-6 py-3 font-display text-xl text-[color:var(--color-ocean-deep)]">𝕏</a>
+            <a href="https://www.ponsfamily.com/launchpad/0x27ad24272b73d4d7bd14b99672b245a010f2cc0e" target="_blank" rel="noreferrer" className="rounded-full comic-border comic-shadow bg-[color:var(--color-trump-red)] px-6 py-3 font-display text-xl text-white">BUY NOW</a>
+            <a href="https://dexscreener.com/robinhood/0x12BB5c491a286AEc5A3093D2d0D8b07520Fa9518" target="_blank" rel="noreferrer" className="rounded-full comic-border comic-shadow bg-[color:var(--color-gold)] px-6 py-3 font-display text-xl text-[color:var(--color-ocean-deep)]">CHART</a>
+            <a href="https://t.me/RetrumpRH" target="_blank" rel="noreferrer" className="rounded-full comic-border comic-shadow bg-[color:var(--color-ocean)] px-6 py-3 font-display text-xl text-white">TELEGRAM</a>
+            <a href="https://x.com/RetrumpRH" target="_blank" rel="noreferrer" className="rounded-full comic-border comic-shadow bg-white px-6 py-3 font-display text-xl text-[color:var(--color-ocean-deep)]">𝕏</a>
           </div>
         </div>
         <div className="mt-8 rounded-2xl comic-border bg-[color:var(--color-cream)] p-4 text-center">
           <div className="font-display text-sm uppercase tracking-widest text-[color:var(--color-ocean-deep)]/70">Contract</div>
-          <div className="font-display text-2xl text-[color:var(--color-trump-red)]">COMING SOON</div>
+          <div className="font-display text-2xl text-[color:var(--color-trump-red)] break-all">0x27Ad24272b73D4D7bd14B99672b245A010F2cC0E</div>
         </div>
         <p className="mt-8 text-center font-display text-sm text-white/80">
           $RETRUMP is a satirical memecoin with no utility, no roadmap, and no shame. Not financial advice. Not political endorsement. Just vibes.
